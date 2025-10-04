@@ -20,10 +20,10 @@ Topics Covered
 # Using CTEs for first bookings
 
 ## Questions Covered:
- 1)select segment,total count of userId who booked flight in 2022.
- 2)query to identify users whose first booking was a hotel booking.
- 3)write a query to calculate the days between first and last booking of each user.
- 4)write the query to count the number of flights and hotel bookings in each of the segment for year 2022.
+ - 1)select segment,total count of userId who booked flight in 2022.
+ - 2)query to identify users whose first booking was a hotel booking.
+ - 3)write a query to calculate the days between first and last booking of each user.
+ - 4)write the query to count the number of flights and hotel bookings in each of the segment for year 2022.
 
 
 -----------
