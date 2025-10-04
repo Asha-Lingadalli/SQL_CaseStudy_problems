@@ -5,19 +5,19 @@
 
 ## Topics Covered:
 🔹 Joins & Relationships
-## INNER JOIN, RIGHT JOIN
+ INNER JOIN, RIGHT JOIN
 
 🔹 Aggregations
-## COUNT, SUM, MIN, MAX
+ COUNT, SUM, MIN, MAX
 
 🔹 Window Functions
-# ROW_NUMBER()
+ ROW_NUMBER()
 
 🔹 Date & Time Functions
-# Calculating days between dates
+ Calculating days between dates
 
 🔹 Subqueries & CTEs & cases
-# Using CTEs for first bookings
+ Using CTEs for first bookings
 
 ## Questions Covered:
  - 1)select segment,total count of userId who booked flight in 2022.
