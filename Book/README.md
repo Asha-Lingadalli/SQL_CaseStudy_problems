@@ -4,19 +4,19 @@
 ## The questions focus on joins, aggregations, window functions, date calculations, and conditional queries to simulate real-world scenarios.
 
 ## Topics Covered:
-🔹 Joins & Relationships
+🔹 Joins & Relationships:
  INNER JOIN, RIGHT JOIN
 
-🔹 Aggregations
+🔹 Aggregations:
  COUNT, SUM, MIN, MAX
 
-🔹 Window Functions
+🔹 Window Functions:
  ROW_NUMBER()
 
-🔹 Date & Time Functions
+🔹 Date & Time Functions:
  Calculating days between dates
 
-🔹 Subqueries & CTEs & cases
+🔹 Subqueries & CTEs & cases:
  Using CTEs for first bookings
 
 ## Questions Covered:
