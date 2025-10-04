@@ -3,7 +3,7 @@
 
 ## The questions focus on joins, aggregations, window functions, date calculations, and conditional queries to simulate real-world scenarios.
 
-Topics Covered
+## Topics Covered:
 🔹 Joins & Relationships
 ## INNER JOIN, RIGHT JOIN
 
