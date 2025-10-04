@@ -28,5 +28,5 @@ Topics Covered
 
 -----------
 ## This repository is designed for:
-1)Practicing SQL queries on realistic booking scenarios
-2)Learning joins, aggregation, window functions, and date operations,CTES,Cases
+- Practicing SQL queries on realistic booking scenarios
+- Learning joins, aggregation, window functions, and date operations,CTES,Cases
