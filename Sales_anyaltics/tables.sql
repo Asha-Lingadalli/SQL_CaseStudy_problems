@@ -54,6 +54,7 @@ INSERT INTO customers (customer_id, first_name, last_name, gender, join_date, ci
 ('C002', 'Rahul', 'Mehta', 'M', '2022-02-14', 'Delhi'),
 ('C003', 'Priya', 'Sharma', 'F', '2023-03-25', 'Bengaluru'),
 ('C004', 'Arjun', 'Nair', 'M', '2023-06-30', 'Kochi');
+('C005', 'Test', 'Customer', 'M', '2023-10-05', 'TestCity');
 
 -- ============================================
 -- 📦 TABLE: products
@@ -102,3 +103,4 @@ INSERT INTO transactions (transaction_id, transaction_date, customer_id, store_i
 ('T008', '2023-08-12', 'C001', 'S001', 'P003', 2, 0, 14000.00),
 ('T009', '2023-08-25', 'C004', 'S004', 'P004', 1, 10, 10800.00),
 ('T010', '2023-09-02', 'C003', 'S003', 'P005', 2, 0, 12000.00);
+('T011', '2023-10-05', 'C005', 'S001', 'P001', 1, 0, 90000.00);
