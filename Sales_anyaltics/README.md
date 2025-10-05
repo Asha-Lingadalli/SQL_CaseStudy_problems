@@ -51,7 +51,7 @@ The database consists of the following tables:
 | discount       | DECIMAL(5,2)| Discount applied (%)                 |
 | total_amount   | DECIMAL(12,2)| Total transaction amount             |
 
----
+--
 
 ## 📚 Topics Covered
 
@@ -68,7 +68,7 @@ The database consists of the following tables:
 - Window functions (`ROW_NUMBER()`)
 - Aggregates with conditions (`HAVING`)
 
----
+--
 
 ## 📝 SQL Questions
 
