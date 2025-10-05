@@ -8,21 +8,21 @@ This repository contains a **practice SQL project** built on a sample sales data
 The database consists of the following tables:
 
 ### `regions`
-| Column       | Type        | Description                       |
+| Column       | Type        | Description                      |
 |--------------|------------|-----------------------------------|
 | region_id    | VARCHAR(5) | Primary key                       |
 | region_name  | VARCHAR(50)| Region name                       |
-| country      | VARCHAR(50)| Country                            |
+| country      | VARCHAR(50)| Country                           |
 
 ### `stores`
-| Column       | Type        | Description                       |
+| Column       | Type        | Description                      |
 |--------------|------------|-----------------------------------|
 | store_id     | VARCHAR(5) | Primary key                       |
-| store_name   | VARCHAR(100)| Name of the store                 |
+| store_name   | VARCHAR(100)| Name of the store                |
 | region_id    | VARCHAR(5) | Foreign key → `regions.region_id` |
 
 ### `customers`
-| Column       | Type        | Description                       |
+| Column       | Type        | Description                      |
 |--------------|------------|-----------------------------------|
 | customer_id  | VARCHAR(5) | Primary key                       |
 | first_name   | VARCHAR(50)| Customer first name               |
