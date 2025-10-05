@@ -71,6 +71,8 @@ INSERT INTO products (product_id, product_name, category, price) VALUES
 ('P003', 'Coffee Maker', 'Home Appliance', 7000.00),
 ('P004', 'Office Chair', 'Furniture', 12000.00),
 ('P005', 'Running Shoes', 'Sports', 6000.00);
+('P006', 'Desk Lamp', 'Furniture', 2500.00);
+
 
 -- ============================================
 -- 💰 TABLE: transactions
