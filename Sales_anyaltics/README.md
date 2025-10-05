@@ -33,23 +33,23 @@ The database consists of the following tables:
 
 ### `products`
 | Column       | Type        | Description                       |
-|--------------|------------|-----------------------------------|
-| product_id   | VARCHAR(5) | Primary key                       |
+|--------------|------------|----------------------------------- |
+| product_id   | VARCHAR(5) | Primary key                        |
 | product_name | VARCHAR(100)| Name of the product               |
-| category     | VARCHAR(50)| Product category                  |
-| price        | DECIMAL(10,2)| Product price                     |
+| category     | VARCHAR(50)| Product category                   |
+| price        | DECIMAL(10,2)| Product price                    |
 
 ### `transactions`
 | Column         | Type         | Description                         |
-|----------------|-------------|-------------------------------------|
-| transaction_id | VARCHAR(5)  | Primary key                         |
+|----------------|-------------|------------------------------------- |
+| transaction_id | VARCHAR(5)  | Primary key                          |
 | transaction_date| DATE       | Date of transaction                  |
-| customer_id    | VARCHAR(5)  | Foreign key → `customers.customer_id` |
-| store_id       | VARCHAR(5)  | Foreign key → `stores.store_id`    |
-| product_id     | VARCHAR(5)  | Foreign key → `products.product_id`|
+| customer_id    | VARCHAR(5)  | Foreign key → `customers.customer_id`|
+| store_id       | VARCHAR(5)  | Foreign key → `stores.store_id`      |
+| product_id     | VARCHAR(5)  | Foreign key → `products.product_id`  |
 | quantity       | INT         | Quantity sold                        |
 | discount       | DECIMAL(5,2)| Discount applied (%)                 |
-| total_amount   | DECIMAL(12,2)| Total transaction amount             |
+| total_amount   | DECIMAL(12,2)| Total transaction amount            |
 
 --
 
