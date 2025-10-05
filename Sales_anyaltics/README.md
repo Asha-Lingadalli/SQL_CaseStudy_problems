@@ -1,6 +1,6 @@
 # 📊 Sales Analytics SQL Practice
 
-This repository contains a **practice SQL project** built on a sample sales database. It includes multiple tables, realistic data, and a set of SQL questions ranging from **beginner to advanced levels**.  
+This repository contains a **practice SQL project** built on a sample sales database. It includes multiple tables, realistic data, and a set of SQL questions ranging from **beginner to advanced levels**. 
 --
 
 ## 🏗️ Database Schema
