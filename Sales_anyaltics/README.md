@@ -121,9 +121,9 @@ The database consists of the following tables:
 38. Find customers who have spent above average compared to the overall mean revenue.
 39. Calculate the cumulative revenue trend over time (using window functions).
 40. Perform an RFM (Recency, Frequency, Monetary) analysis:
-    -Recency → Days since last purchase.
-    -Frequency → Total number of transactions.
-    -Monetary → Total revenue spent.
+     Recency → Days since last purchase.
+     Frequency → Total number of transactions.
+     Monetary → Total revenue spent.
 
 ---
 
