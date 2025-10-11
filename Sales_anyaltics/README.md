@@ -9,18 +9,18 @@ This repository contains a **practice SQL project** built on a sample sales data
 The database consists of the following tables:
 
 ### `regions`
-| Column       | Type        | Description                       |
+| Column       | Type        | Description                      |
 |--------------|------------|-----------------------------------|
 | region_id    | VARCHAR(5) | Primary key                       |
 | region_name  | VARCHAR(50)| Region name                       |
-| country      | VARCHAR(50)| Country                            |
+| country      | VARCHAR(50)| Country                           |
 
 ### `stores`
 | Column       | Type        | Description                       |
-|--------------|------------|-----------------------------------|
-| store_id     | VARCHAR(5) | Primary key                       |
+|--------------|------------|----------------------------------- |
+| store_id     | VARCHAR(5) | Primary key                        |
 | store_name   | VARCHAR(100)| Name of the store                 |
-| region_id    | VARCHAR(5) | Foreign key → `regions.region_id` |
+| region_id    | VARCHAR(5) | Foreign key → `regions.region_id`  |
 
 ### `customers`
 | Column       | Type        | Description                       |
@@ -34,23 +34,23 @@ The database consists of the following tables:
 
 ### `products`
 | Column       | Type        | Description                       |
-|--------------|------------|-----------------------------------|
-| product_id   | VARCHAR(5) | Primary key                       |
+|--------------|------------|----------------------------------- |
+| product_id   | VARCHAR(5) | Primary key                        |
 | product_name | VARCHAR(100)| Name of the product               |
-| category     | VARCHAR(50)| Product category                  |
-| price        | DECIMAL(10,2)| Product price                     |
+| category     | VARCHAR(50)| Product category                   |
+| price        | DECIMAL(10,2)| Product price                    |
 
 ### `transactions`
 | Column         | Type         | Description                         |
-|----------------|-------------|-------------------------------------|
-| transaction_id | VARCHAR(5)  | Primary key                         |
+|----------------|-------------|------------------------------------- |
+| transaction_id | VARCHAR(5)  | Primary key                          |
 | transaction_date| DATE       | Date of transaction                  |
-| customer_id    | VARCHAR(5)  | Foreign key → `customers.customer_id` |
-| store_id       | VARCHAR(5)  | Foreign key → `stores.store_id`    |
-| product_id     | VARCHAR(5)  | Foreign key → `products.product_id`|
+| customer_id    | VARCHAR(5)  | Foreign key → `customers.customer_id`|
+| store_id       | VARCHAR(5)  | Foreign key → `stores.store_id`      |
+| product_id     | VARCHAR(5)  | Foreign key → `products.product_id`  |
 | quantity       | INT         | Quantity sold                        |
 | discount       | DECIMAL(5,2)| Discount applied (%)                 |
-| total_amount   | DECIMAL(12,2)| Total transaction amount             |
+| total_amount   | DECIMAL(12,2)| Total transaction amount            |
 
 ---
 
