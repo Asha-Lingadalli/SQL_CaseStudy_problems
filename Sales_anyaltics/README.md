@@ -4,7 +4,7 @@ This repository contains a **practice SQL project** built on a sample sales data
 
 ---
 
-## 🏗️ Database Schema
+## 🏗️ Database Schemas
 
 The database consists of the following tables:
 
